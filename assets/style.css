@@ -110,15 +110,6 @@ header .site-logo{
 	z-index: 1; /* My site's logo, chose the element as a span rather than an h1 tag*/
 }
 
-.site-logo a, .site-logo a:visited{
-	color: var(--black);
-}
-
-.site-logo a:hover, .site-logo a:active:hover{
-	transition-duration: 0.65s;
-	text-shadow: 2px 2px var(--white);
-}
-
 header nav{
 	z-index: 1;
 	float: right;
@@ -260,7 +251,7 @@ header video {
 .projects h3{
 	font-size: var(--moderate);
 	text-transform: uppercase;
-	padding-bottom: 1vh;
+	padding-bottom: 2vh;
 	text-align: center;
 }
 
@@ -368,8 +359,56 @@ header video {
 /*---Contact Pages---*/
 
 .contacts{
-
+	display: flex;
+	padding-top: 30vh;
+	padding-bottom: 23vh;
 }
+
+.contacts h2{
+	font-size: var(--extra-large);
+	text-transform: uppercase;
+	padding-bottom: 3vh;
+}
+
+.contact-list{
+	margin-left: auto;
+}
+
+.contact-list li{
+	list-style-type: none;
+	border-bottom: 4px solid rgba(190,66,0,255);
+	font-size: var(--small);
+	margin-top: 50px;
+}
+
+.contact-list a{
+	font-family: sans-serif;
+	text-decoration: none;
+	color: var(--black);
+	position: relative;
+	transition: all 1s;
+	overflow: hidden;
+	display: inline-block;
+}
+
+
+.contact-list a:before{
+	content: '';
+	position: absolute;
+	left: 0;
+	top: 0;
+	height: 100%;
+	width: 100%;
+	z-index: -1;
+	background-color: rgba(255,254,65,255);
+	transform: translateY(-100%);
+	transition: all 1s;
+}
+
+.contact-list a:hover:before{
+	transform: translateY(0);
+}
+
 
 @media screen {
 	
