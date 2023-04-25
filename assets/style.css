@@ -364,7 +364,7 @@ header video {
 
 footer{
 	display: flex;
-	padding-bottom: 23vh;
+	padding-bottom: 8vh;
 }
 
 footer h4{
@@ -383,17 +383,7 @@ footer li{
 
 /*---Contact List ---*/
 
-.contacts{
-	display: flex;
-	padding-top: 20vh;
-	padding-bottom: 23vh;
-}
 
-.contacts h2{
-	font-size: var(--extra-large);
-	text-transform: uppercase;
-	padding-bottom: 3vh;
-}
 
 .contact-list{
 	margin-left: auto;
@@ -417,7 +407,6 @@ footer li{
 
 	/* A hover effect that I recycled from my old CSS Animation Project
 	
-
 	Hover effect for the contact list on the footer. This animation allows a swipe from top to bottom.
 	
 	*/
@@ -445,9 +434,51 @@ footer nav{
 	float: right;
 }
 
+/* Responsiveness Starts*/
+
+	/* Responsiveness for typical laptop Large width with the same height and width */
+@media only screen and (max-width: 1440px){
+
+	header h1{
+		padding-top: 20vh;
+	}
+	.opener{
+		padding-top: 0;
+	}
+}
+
+	/* Responsive Started For Laptops in 1025 width or possibly in Vertical Use in this dimensions*/
+@media only screen and (max-width: 1024px){
+
+	header a{
+		font-size: 20px;
+	}
+	header{
+		padding-bottom: 20vh;
+	}
+
+	main h2{
+		text-align: center;
+		}
+
+	.opener{
+		padding-top: 18vh;
+		padding-bottom: 14vh;
+	}
+
+	.opener-content{
+		width: 100%;
+		text-align: center;
+	}
+
+	.opener img{
+		justify-content: center
+	};
+
+}
 
 
-
+	/*Responsive Started For Devices With A Device Width of 820px */
 @media only screen and (max-width: 820px) {
 
 	header nav{
