@@ -14,9 +14,7 @@
 	--black: #181616;
 	--white: #fafafa;
 
-	/*-Content Body Padding*/
-	--top-pad: 10vh;
-	--bottom-pad: 16vh:
+
 }
 
 /*---CSS Desktop Prefix---*/
@@ -181,6 +179,7 @@ header video {
 }
 
 /*---Main---*/
+
 	/*About*/
 
 .opener{
@@ -301,9 +300,14 @@ header video {
 	display: flex;
 }
 
+/*  Keyframes animation allowing the project to scroll left to right or right
+	to left based om speed
 
+	This animation style I got from this link from stack overflow in regards of the infinite scrolls. https://stackoverflow.com/questions/45847392/pure-css-continuous-horizontal-text-scroll-without-break 
 
+	However there is a slight feature glitch where it seems to not reset as a n infinite loop. Plus the reverse linear seems to add padding for the second line.
 
+*/
 @keyframes project-section-one{
 	0% {
 		transform: translate(0%,0);
@@ -327,7 +331,7 @@ header video {
 	display: flex;
 }
 
-/*This project is */
+/*These are old projects from my old portfolio linked*/
 
 .project-one-old{
 	background-image: url(./images/project-one-bg.PNG);
@@ -356,7 +360,28 @@ header video {
 	background-size: cover;
 }
 
-/*---Contact Pages---*/
+/*---Footer---*/
+
+footer{
+	display: flex;
+	padding-bottom: 23vh;
+}
+
+footer h4{
+	font-size: var(--small);
+}
+
+footer ul{
+	width: 50%;
+	margin: 0;
+}
+
+footer li{
+	text-transform: uppercase;
+	display: block;
+}
+
+/*---Contact List ---*/
 
 .contacts{
 	display: flex;
@@ -390,6 +415,12 @@ header video {
 	display: inline-block;
 }
 
+	/* A hover effect that I recycled from my old CSS Animation Project
+	
+
+	Hover effect for the contact list on the footer. This animation allows a swipe from top to bottom.
+	
+	*/
 
 .contact-list a:before{
 	content: '';
@@ -409,30 +440,12 @@ header video {
 	transform: translateY(0);
 }
 
-/*---Footer---*/
-
-footer{
-	display: flex;
-	padding-bottom: 23vh;
-}
-
-footer h4{
-	font-size: var(--small);
-}
-
-footer ul{
-	width: 50%;
-	margin: 0;
-}
-
-footer li{
-	text-transform: uppercase;
-	display: block;
-}
 
 footer nav{
 	float: right;
 }
+
+
 
 
 @media only screen and (max-width: 820px) {
