@@ -538,19 +538,48 @@ footer nav{
 	}
 }
 
+@media only screen and (max-width: 600px) {
+	header h1{	
+	padding-top: 15vh;
+	font-size: 50px;
+	}
+}
 
 @media screen and (max-width: 425px) {
+
+	.container{
+		width: 85%;
+	}
 
 	header video{
 		width: 200%;
 	}
 
 	header h1{
-		padding-top: 40vh;
+		padding-top: 20vh;
 		float: right;
+		font-size: var(--moderate);
+	}
+
+	.opener img{
+		width: 350px;
+		height:  200px;
+	}
+
+	header li a{
+		padding: 2px;
+		font-size: 12px;
 	}
 
 	main{
 		padding-top: 30vh;
+	}
+
+	main p{
+		font-size: 14px;
+	}
+
+	.opener {
+
 	}
 }
