@@ -436,14 +436,39 @@ footer nav{
 
 /* Responsiveness Starts*/
 
+@media only screen and (min-width: 2560px){
+	.opener{
+		padding-top: 0;
+		padding-bottom: 0;
+	}
+
+	.opener-content{
+		padding-top: 10vh;
+		width: 60%;
+	}
+}
+
+
 	/* Responsiveness for typical laptop Large width with the same height and width */
-@media only screen and (max-width: 1440px){
+@media only screen and (max-width: 1400px){
 
 	header h1{
 		padding-top: 20vh;
 	}
 	.opener{
 		padding-top: 0;
+	}
+}
+
+
+@media only screen and (max-width: 1280px){
+
+	main{
+		padding-top: 30vh;
+	}
+
+	.opener-content{
+		width: 100%;
 	}
 }
 
@@ -454,21 +479,29 @@ footer nav{
 		font-size: 20px;
 	}
 	header{
-		padding-bottom: 20vh;
+		padding-bottom: 10vh;
 	}
 
-	main h2{
+	header h1{
+		text-align: left;
+	}
+
+	main h1, h2, h3{
 		text-align: center;
-		}
+	}
+
+	main{
+		padding-top: 5vh;
+	}
 
 	.opener{
-		padding-top: 18vh;
+		padding-top: 10vh;
 		padding-bottom: 14vh;
 	}
 
 	.opener-content{
 		width: 100%;
-		text-align: center;
+		text-align: left;
 	}
 
 	.opener img{
@@ -481,6 +514,10 @@ footer nav{
 	/*Responsive Started For Devices With A Device Width of 820px */
 @media only screen and (max-width: 820px) {
 
+	header{
+		padding-bottom: 0;
+	}
+
 	header nav{
 		float: none;
 	}
@@ -489,11 +526,31 @@ footer nav{
 		padding-top: 20vh;
 	}
 
-	header{
-		padding-bottom: 0;
+	header video{
+		width: 150%;
+	}
+	main{
+		padding-top: 40vh;
 	}
 
 	.opener{
 		padding-top: 10vh;
+	}
+}
+
+
+@media screen and (max-width: 425px) {
+
+	header video{
+		width: 200%;
+	}
+
+	header h1{
+		padding-top: 40vh;
+		float: right;
+	}
+
+	main{
+		padding-top: 30vh;
 	}
 }
