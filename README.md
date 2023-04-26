@@ -16,7 +16,7 @@ Although the challenge gave us a template to try and replicate shown below:
 
 ![alt text](assets/images/example-portfolio.gif)
 
-# My Version
+## My Version
 
 I decided to somewhat go my own way, as we were told it was okay and I approached this in a much more minimalistic but stylish way: 
 
@@ -30,8 +30,28 @@ For this project I turned the header into a static video and the static project 
 
 ## Issues With This Project
 
-* I spent 6-8 hours of just working the header. Restructuring the video background and changing it to suit a sort of taste I can like. Even compiling free stock videos 
+* I spent 6-8 hours of just working the header. Restructuring the video background and changing it to suit a sort of taste I can like. Even compiling free stock videos into a sort of split, however I realized that effect would not work on other responsive dimensions. So I changed it to the background you see
 
-## Link To Static Page
+* The bottom reverse linear animation creates a weird padding to the right but the linear top does not.
 
-https://mambrocio.github.io/chal-oneMod/
+* The infinite scrolling is not that infinite as it stops momentarily.
+
+* Mobile Responsiveness is shaky as wide displays from tablets to ultra-wide work but as soon it dips below 600px. It does not respond well. 
+
+* I did not like the requirement of having one project bigger than the other based on the requirements and opted into a much more equal portrayal
+
+* I had to redeploy this project two other times because the deployment kept breaking. 
+
+* I'm dreading to say this. BUT I AM POSSIBLY GOING TO REDO A NEW ONE, SIMPLY BECAUSE I THOUGHT OF SOMETHING EVEN MORE STYLISTIC.
+
+## Asset Credit To The Website
+
+Lava Lamp Used For The Header:
+    https://www.pexels.com/video/close-view-of-a-yolk-1508455/ 
+
+Orange Swirl For Project Section:
+    https://www.pexels.com/video/a-mixture-of-different-colored-liquid-paints-3078336/
+
+## Link To Github Page
+
+https://mambrocio.github.io/new-portfolio-base/
