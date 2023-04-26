@@ -40,11 +40,9 @@ For this project I turned the header into a static video and the static project 
 
 * I did not like the requirement of having one project bigger than the other based on the requirements and opted into a much more equal portrayal
 
-* I had to redeploy this project two other times because the deployment kept breaking 
+* I had to redeploy this project two other times because the deployment kept breaking. 
 
 * I'm dreading to say this. BUT I AM POSSIBLY GOING TO REDO A NEW ONE, SIMPLY BECAUSE I THOUGHT OF SOMETHING EVEN MORE STYLISTIC.
-
-
 
 ## Asset Credit To The Website
 
@@ -54,6 +52,6 @@ Lava Lamp Used For The Header:
 Orange Swirl For Project Section:
     https://www.pexels.com/video/a-mixture-of-different-colored-liquid-paints-3078336/
 
-## Link To Static Page
+## Link To Github Page
 
-https://mambrocio.github.io/chal-oneMod/
+https://mambrocio.github.io/new-portfolio-base/
