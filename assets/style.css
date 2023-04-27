@@ -129,7 +129,6 @@ nav li {
 
 nav li:last-child{
 	padding: 0;
-	padding-left: 8px;
 }
 
 header a{
@@ -556,30 +555,30 @@ footer nav{
 	}
 
 	header h1{
-		padding-top: 20vh;
+		padding-top: 12vh;
 		float: right;
 		font-size: var(--moderate);
+	}
+
+	header ul{
+		padding-top: 0;
+	}
+
+	nav li {
+		font-size: 14px;
+		padding: 2px;
+	}
+
+	main{
+		padding-top: 10vh;
+	}
+
+	main p{
+		font-size: 16px;
 	}
 
 	.opener img{
 		width: 350px;
 		height:  200px;
-	}
-
-	header li a{
-		padding: 2px;
-		font-size: 12px;
-	}
-
-	main{
-		padding-top: 30vh;
-	}
-
-	main p{
-		font-size: 14px;
-	}
-
-	.opener {
-
 	}
 }
